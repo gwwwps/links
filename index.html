@@ -5,35 +5,90 @@
     <title>Ian I</title>
     <meta charset="utf-8">
     <meta name="author" content="Ian I">
+
+    <style>
+      body{
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #16161a;
+        display: flex;
+        justify-content: center;
+      }
+
+      .name{
+        color: #fffffe;
+        justify-content: center;
+      }
+
+      .social-media{
+        color: #7f5af0;
+        text-decoration: none;
+        justify-content: space-around;
+      }
+
+      .headshot{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        justify-content: center;
+      }
+
+      .thumbnail{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        object-fit: cover;
+      }
+
+      .link{
+        background-color: #7f5af0;
+        display: flex;
+        align-items: center;
+      }
+
+      .link a{
+        color:#fffffe;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .items{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 650px;
+        flex-grow: 1;
+      }
+    </style>
+
   </head>
 
   <body>
-      <img src = "" alt = "Ian I Headshot" class = "headshot">
+    <div class = "items">
+        <div class = "main-image">
+          <img src = "/thumbnails/raimond-klavins-mV8RSZLvaJA-unsplash.jpg" alt = "Ian I Headshot" class = "headshot">
+        </div>
 
-      <div class = "name">Ian I</div>
+        <div class = "name">Ian I</div>
 
-      <div class = "social media">
-        <a href = "" target = "_blank"> </a>
-        <a href = "" target = "_blank"> </a>
-        <a href = "" target = "_blank"> </a>
-        <a href = "" target = "_blank"> </a>
-      </div>
+        <div class = "social media">
+          <a href = "https://github.com/gwwwps" target = "_blank">GitHub</a>
+          <a href = "https://www.linkedin.com/in/ian-ishenin-721630277/" target = "_blank">LinkedIn</a>
+          <a href = "https://app.joinhandshake.com/stu/users/52479273" target = "_blank">Handshake</a>
+        </div>
 
-      <div class = "link">
-        <a href = "" target = "_blank"> </a>
-      </div>
+        <div class = "link">
+          <img src = "/thumbnails/logo-ms-social.png" class = thumbnail>
+          <a href = "https://azure.microsoft.com/en-us/free/search/?ef_id=_k_CjwKCAiAuYuvBhApEiwAzq_YiZB0p6azU9viSDeyFuKo0Qvud28j8MckDH7cR6KA__tTaMEbpxr2QRoC7DEQAvD_BwE_k_&OCID=AIDcmmfq865whp_SEM__k_CjwKCAiAuYuvBhApEiwAzq_YiZB0p6azU9viSDeyFuKo0Qvud28j8MckDH7cR6KA__tTaMEbpxr2QRoC7DEQAvD_BwE_k_&gad_source=1&gclid=CjwKCAiAuYuvBhApEiwAzq_YiZB0p6azU9viSDeyFuKo0Qvud28j8MckDH7cR6KA__tTaMEbpxr2QRoC7DEQAvD_BwE" target = "_blank">Microsoft Azure</a>
+        </div>
 
-      <div class = "link">
-        <a href = "" target = "_blank"> </a>
-      </div>
-
-      <div class = "link">
-        <a href = "" target = "_blank"> </a>
-      </div>
-
-      <div class = "link">
-        <a href = "" target = "_blank"> </a>
-      </div>
+        <div class = "link">
+          <img src = "/thumbnails/thumbnail_default.jpg" class = thumbnail>
+          <a href = "https://www.clcillinois.edu/" target = "_blank">College of Lake County</a>
+        </div>
+    </div>
+      
 
 
   </body>
